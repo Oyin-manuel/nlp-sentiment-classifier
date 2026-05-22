@@ -17,6 +17,14 @@ Modern businesses generate massive amounts of unstructured text data through soc
 * **Class Optimization:** The model excelled at identifying the 'Positive' class (F1-Score: 0.86). The analysis also highlights the challenges of class imbalance regarding the 'Neutral' class, providing a roadmap for future dataset augmentation.
 * **Interpretability:** Extracted log probabilities to visualize the top predictive keywords per class, allowing stakeholders to see exactly *why* the model makes a decision.
 
+### 📉 Model Evaluation & Insights
+
+**Sentiment Class Distribution**
+![Data Distribution](assets/nlp_distribution.png)
+
+**Model Performance & Top Predictive Keywords**
+![Model Dashboard](assets/nlp_results.png)
+
 ## 🧰 Tech Stack
 * **Language:** Python
 * **Libraries:** `pandas`, `numpy`, `scikit-learn`, `re` (Regex), `matplotlib`, `seaborn`
